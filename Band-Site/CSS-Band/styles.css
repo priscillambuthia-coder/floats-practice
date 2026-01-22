@@ -1,11 +1,78 @@
 .sidebar {
-  } /* Add Sidebar */
+  width: 450px;
+  height: 230px;
+  padding: 10px;
+  float: right;
+  background-color: skyblue;
+  border: 5px solid black;
+  background-image: url("WhatsApp Image 2026-01-21 at 8.33.49 PM (1).jpeg");
+  } 
+  .band-members img{
+    background-color: lightyellow;
+    border: 3px solid black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+  }
  
-  .column {
-  } /* Add Column specifications*/
+
+
 
   img {
-  } /* Add Image Specifications */
+    background-color: plum;
+    border: 5px solid black;
+    border-radius: 10px;
+    height: 200px;
+    width: 350px;
+    padding: 25px;
+    float: left;
+  } 
+  @media screen and (min-width:480px){
+    body{
+      background-color:beige ;
+      color: white;
+    }
+  }
+    
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color:beige
+  }
+  h1{
+    text-align: justify;
+    color: brown;
+  }
+  h2{
+    text-align: justify;
+    color:brown
+  }
+  footer {
+    text-align: center;
+    font-size: small;
+    margin-top: 20px;
+    color: lightseagreen
+  }
+  a :active{
+    color: royalblue;
+  }
+  a :hover{
+    color: orchid;
+  }
+  a:visited{
+    color: crimson;
+  }
+  section{
+    display: block;
+    margin-top: 280px;
+    padding-top: 10px;
+    border: 5px solid black;
+  }
+  
 
   
 
